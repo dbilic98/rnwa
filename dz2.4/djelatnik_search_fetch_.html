@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bungee&family=Palette+Mosaic&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="font-family:Arial, Helvetica, sans-serif, cursive;color: rgb(5, 0, 0)">
+  <div class="header"style="font-family: 'Bungee', cursive; color:  rgb(5, 0, 0)" >B A N K &nbsp &nbsp D A T A B A S E</div>
+  <div class="auth">
+    <a class="login" href="#"> Login </a>
+    <a class="register" href="#"> Register </a>
+  </div>
+
+  <div class="menu">
+    <a href="index.html">Home</a>
+    <a href="#">Account</a>
+    <a href="https://fsre.sum.ba/">FSRE</a>
+    <a href="djelatnik_search.html">Search employees</a>
+    
+
+  </div>
+		
+  
+  <script>
+ function showHint(str) {
+        fetch("trazilica.php?s=" + str)
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("txtHint").innerHTML = data;
+            })
+            .catch(error => console.error(error));
+    }
+    </script>
+    
+        </head>
+        <body>
+          
+    <section id="back2">
+            <div class="container">
+                <section id="left">
+                   <p><b>Search employer</b></p>
+    <form> 
+     First name <input id="target" type="text" >
+    </form>
+    <p>Suggestion:<br> 
+    <span id="txtHint" style="color:red"></span><span id="dataAll"></span>
+    </p>
+       </section>
+                
+            </div>
+                 </section>
+           
+  
+  <div class="footer"><p>Copyright &copy;</p></div>
+</html>
+        </body>
+    </html>
+    
