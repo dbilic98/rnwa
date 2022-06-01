@@ -1,0 +1,74 @@
+﻿@model WebApplication3.Models.ACC_TRANSACTION
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ACC_TRANSACTION</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.AMOUNT)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AMOUNT)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FUNDS_AVAIL_DATE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FUNDS_AVAIL_DATE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TXN_DATE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TXN_DATE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TXN_TYPE_CD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TXN_TYPE_CD)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ACCOUNT.STATUS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ACCOUNT.STATUS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BRANCH.ADDRESS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BRANCH.ADDRESS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EMPLOYEE.FIRST_NAME)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EMPLOYEE.FIRST_NAME)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TXN_ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
