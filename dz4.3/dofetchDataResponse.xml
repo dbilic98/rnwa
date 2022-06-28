@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:Converter" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns2="http://xml.apache.org/xml-soap" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Body>
+		<ns1:doFetchDataResponse>
+			<return xsi:type="ns2:Map">
+				<item>
+					<key xsi:type="xsd:int">0</key>
+					<value xsi:type="xsd:string">5</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">EMP_ID</key>
+					<value xsi:type="xsd:string">5</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">1</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">END_DATE</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">2</key>
+					<value xsi:type="xsd:string">John</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">FIRST_NAME</key>
+					<value xsi:type="xsd:string">John</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">3</key>
+					<value xsi:type="xsd:string">Gooding</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">LAST_NAME</key>
+					<value xsi:type="xsd:string">Gooding</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">4</key>
+					<value xsi:type="xsd:string">2003-11-14</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">START_DATE</key>
+					<value xsi:type="xsd:string">2003-11-14</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">5</key>
+					<value xsi:type="xsd:string">Loan Manager</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">TITLE</key>
+					<value xsi:type="xsd:string">Loan Manager</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">6</key>
+					<value xsi:type="xsd:string">1</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">ASSIGNED_BRANCH_ID</key>
+					<value xsi:type="xsd:string">1</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">7</key>
+					<value xsi:type="xsd:string">2</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">DEPT_ID</key>
+					<value xsi:type="xsd:string">2</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:int">8</key>
+					<value xsi:type="xsd:string">4</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">SUPERIOR_EMP_ID</key>
+					<value xsi:type="xsd:string">4</value>
+				</item>
+			</return>
+		</ns1:doFetchDataResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
